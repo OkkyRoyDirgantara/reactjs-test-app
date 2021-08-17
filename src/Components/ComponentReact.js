@@ -4,7 +4,7 @@ class FoodsMenu extends React.Component {
     render() {
         return(
             <div>
-                <div style={{border: "1px solid black", width: 300, margin: 'auto'}}>
+                <div style={{border: "1px solid black", width: 300, margin: 'auto', marginTop: '1px'}}>
                     <p>Menu Name: {this.props.nameMenu}</p>
                     <p>Price: {this.props.priceMenu}</p>
                 </div>
