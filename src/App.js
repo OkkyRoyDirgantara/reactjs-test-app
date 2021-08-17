@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React from "react";
 import './App.css';
 import {JavaScript,JSX} from "./Components/IntroductionJSX";
@@ -10,7 +9,7 @@ class App extends React.Component{
         this.state = {
             nameResto: "Dirga",
         }
-    }
+    };
     render() {
         return (
             <div>
